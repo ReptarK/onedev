@@ -14,4 +14,4 @@ script: mvn build   # maven build
 script: mvn test    # maven run test
 
 # ajout d'un commentaire pour simuler un CI 
-# apres avoir affectue un " git push "
+# apres avoir affectue un "git push"
