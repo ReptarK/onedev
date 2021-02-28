@@ -1,0 +1,13 @@
+# selection du langage
+langage: java
+
+# selection de la version du JDK
+jdl:
+    - openjdk8
+    
+java:
+    - "stable"
+
+# script a executer lors du push
+script: mvn build
+script: mvn test
